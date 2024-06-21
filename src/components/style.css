@@ -1,0 +1,80 @@
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.job-application-form {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.job-application-form .form-group {
+    padding: 10px 0;
+}
+
+.job-application-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.job-application-form .form-group input,
+.job-application-form .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.job-application-form .form-group .checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-application-form .form-group .checkbox-group label {
+    margin-bottom: 5px;
+}
+
+.job-application-form .form-group .error {
+    border-color: red;
+}
+
+.job-application-form .form-group .error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submission-summary {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.submission-summary h3 {
+    color: green;
+}
+
+.submit-button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #1a252f;
+}
